@@ -1,0 +1,53 @@
+.Glogo{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: -170px;
+}
+.searchBar{
+    margin-top:20em;
+    margin-left:35em;
+  
+}
+.searchBox{
+    border-radius: 25px;
+    height: 90%;
+    width: 30%;
+}
+.searchBttn{
+    border-radius: 20px;
+    height: 90%;
+    width: 150px;
+    background-color: #5c5c5c;
+    font-size: large;
+}
+
+.navbar{
+    margin-top:-330px;
+    margin-left: 90%;   
+    list-style-type: none; 
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item-google{
+    margin: 10px;   
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+}
