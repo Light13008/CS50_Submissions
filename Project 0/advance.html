@@ -2,18 +2,60 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <form action="https://www.google.com/search" >
             <div class="searchBar">
-            <input type="text" name="q" placeholder="Google here"  class="searchBox">
-            <input type="submit" value="Google Search" class="searchBttn">
             </div>
             <div>
                 <ul class="navbar">
                     <li class="nav-item-google"><a href="index.html">Google </a></li>
             </div>
+        </form>
+        <h1 class="h1-Advanced">Advanced Search</h1>
+        <div class="hr-line"> </div>
+        <div class="Findpgs">
+            Find pages with...
+        </div>
+        <form action="https://www.google.com/search" >
+                <div class="row-input">
+                    <div class="left">
+                        <p>all these words: </p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" name="as_q" list="datalistOptions" id="exampleDataList">                   
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p class="p-ad">this exact word or phrase: </p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" name="as_epq" list="datalistOptions" id="exampleDataList">                   
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p class="p-ad">any of these words: </p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" name="as_oq" list="datalistOptions" id="exampleDataList">                   
+                    </div>
+                </div>
+                <div class="row-input">
+                    <div class="left">
+                        <p class="p-ad">none of these words:</p>
+                    </div>
+                    <div class="right">
+                        <input class="form-control" name="as_eq" list="datalistOptions" id="exampleDataList">                   
+                    </div>
+                </div>
+                <div class="btn-div">
+                <input type="submit" value="Advanced Search" class="btn  btn-ad">
+                </div>
+                
         </form>
     </body>
 </html>

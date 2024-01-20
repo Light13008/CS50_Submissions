@@ -58,3 +58,54 @@ a:visited{
 a:link{
     text-decoration: none;
 }
+
+.h1-Advanced{
+color: #d93025;
+font-size: 20px;
+margin: 25px 35px;
+}
+
+.hr-line{
+border-bottom: 1px solid;
+}
+
+.Findpgs{
+margin: 50px;
+font-size: large;  
+}
+
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left{
+    margin-left: 50px;
+    width: 200px;
+}
+
+.form-control{
+    width: 385px;
+}
+
+.pd-ad{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.btn-ad{
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    background-color: #4d90fe;
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 635px;
+    margin-top: 20px;
+}
