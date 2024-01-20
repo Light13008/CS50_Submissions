@@ -1,7 +1,8 @@
-.Glogo{
+.center-div{
     position: absolute;
-    margin-left: 550px;
-    margin-top: -170px;
+    margin-left: 570px;
+    margin-top: -210px;
+    justify-content: center;
 }
 .searchBar{
     margin-top:20em;
@@ -10,15 +11,21 @@
 }
 .searchBox{
     border-radius: 25px;
-    height: 90%;
-    width: 30%;
+    height: 30px;
+    width: 60%;
+    border-color: whitesmoke;
+    border-bottom: #5c5c5c;
+    border-bottom-width: 4px;
+    margin-left: -70px;
 }
 .searchBttn{
-    border-radius: 20px;
+
     height: 90%;
     width: 150px;
-    background-color: #5c5c5c;
     font-size: large;
+    border-style: none;
+    background-color: whitesmoke;
+    justify-content: center;
 }
 
 .navbar{
